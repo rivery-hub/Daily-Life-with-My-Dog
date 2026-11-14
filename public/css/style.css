@@ -1,14 +1,14 @@
 :root{
-  --bg:#f3f4e0;--sky:#d9ecf4;--grass:#c9e0ae;--veil:rgba(243,246,225,.42);--surface:rgba(255,255,250,.96);--text:#4a4034;--muted:#7d7766;--accent:#6f9a4e;--line:#d7dcbc;
+  --bg:#f8f9ec;--sky:#d9ecf4;--grass:#c9e0ae;--veil:rgba(252,253,240,.74);--surface:rgba(255,255,250,.96);--text:#4a4034;--muted:#7d7766;--accent:#6f9a4e;--line:#d7dcbc;
   box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
 }
 @media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){--bg:#1f2a22;--sky:#1b2a35;--grass:#26402b;--veil:rgba(16,28,18,.7);--surface:rgba(58,76,62,.94);--text:#e6eedb;--muted:#9fb099;--accent:#9fcb7e;--line:#3d5441}
+  :root:not([data-theme="light"]){--bg:#2a3a2e;--sky:#1b2a35;--grass:#26402b;--veil:rgba(16,28,18,.55);--surface:rgba(58,76,62,.94);--text:#e6eedb;--muted:#9fb099;--accent:#9fcb7e;--line:#3d5441}
 }
-:root[data-theme="dark"]{--bg:#1f2a22;--sky:#1b2a35;--grass:#26402b;--veil:rgba(16,28,18,.7);--surface:rgba(58,76,62,.94);--text:#e6eedb;--muted:#9fb099;--accent:#9fcb7e;--line:#3d5441}
+:root[data-theme="dark"]{--bg:#2a3a2e;--sky:#1b2a35;--grass:#26402b;--veil:rgba(16,28,18,.55);--surface:rgba(58,76,62,.94);--text:#e6eedb;--muted:#9fb099;--accent:#9fcb7e;--line:#3d5441}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic","Noto Sans JP",sans-serif;line-height:1.9;letter-spacing:.02em;background-image:radial-gradient(circle at 85% 8%,rgba(255,244,200,.6),transparent 30%),linear-gradient(var(--veil),var(--veil)),url(../images/grass.jpg);background-size:auto,auto,320px auto;background-repeat:no-repeat,no-repeat,repeat;background-attachment:fixed,fixed,scroll}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic","Noto Sans JP",sans-serif;line-height:1.9;letter-spacing:.02em;background-image:radial-gradient(circle at 85% 8%,rgba(255,248,215,.85),transparent 30%),linear-gradient(var(--veil),var(--veil)),url(../images/grass.jpg);background-size:auto,auto,320px auto;background-repeat:no-repeat,no-repeat,repeat;background-attachment:fixed,fixed,scroll}
 a{color:var(--accent);text-decoration:none}
 .wrap{max-width:720px;margin:0 auto;padding:0 20px}
 header{padding:20px 0;border-bottom:1px solid var(--line)}
